@@ -24,4 +24,4 @@ def remind():
 if __name__ == "__main__":  
     while(True):
         checkTime()
-        sleep(20)
+        sleep(60)
