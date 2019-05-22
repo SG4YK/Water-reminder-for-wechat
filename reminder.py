@@ -18,7 +18,7 @@ def remind():
         for i in range(0,len(groups)):
             groups[i] = ensure_one(bot.groups().search(groups[i]))
             for j in range(0,len(imgs)):
-                groups[i].send_image(imgs[i])
+                groups[i].send_image(imgs[j])
 
 
 if __name__ == "__main__":  
