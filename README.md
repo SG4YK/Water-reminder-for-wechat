@@ -14,7 +14,7 @@ $ pip install pillow
 Clone this repo
 ```
 $ git clone https://github.com/SG4YK/Water-reminder-for-wechat.git
-$ cd .Water-reminder-for-wechat
+$ cd Water-reminder-for-wechat
 ```
 Edit `config.json`, make sure the file name and the group names are exact. Here's the example
 ```
