@@ -1,5 +1,5 @@
 # Just a simple water reminder for WeChat.
-
+Inspired by [this image](https://github.com/SG4YK/Water-reminder-for-wechat/blob/master/img/reminder.jpg)
 ## Dependencies
 + python  
 + pillow
@@ -29,7 +29,7 @@ Run the script, and scan the QR code using WeChat on iOS or Android.
 ```
 $ python reminder.py
 ```
-To run in the script as a deamon, you can use [screen](https://www.gnu.org/software/screen/)   
+To run in the script in the background, you can use [screen](https://www.gnu.org/software/screen/)   
 ```
 $ screen -S reminder  
 $ python reminder.py
