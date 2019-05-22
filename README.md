@@ -31,7 +31,7 @@ $ python reminder.py
 ```
 To run in the script as a deamon, you can use [screen](https://www.gnu.org/software/screen/)   
 ```
-$ screen -S reminder  #create a session
+$ screen -S reminder  
 $ python reminder.py
 ```
 Then you can end your terminal process, but don't use Ctrl+D to quit.  
