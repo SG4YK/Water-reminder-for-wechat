@@ -19,10 +19,25 @@ $ cd Water-reminder-for-wechat
 Edit `config.json`, make sure the file name and the group names are exact. Here's the example
 ```
 {
-    "groups": ["group1","group2"], 
-    "friends": [], 
-    "pics": ["./img/reminder.jpg"],
-    "messages": []
+    "groups": [
+        {
+            "names": ["gp00","gp01"],
+            "messages": ["msg00"],
+            "images" :["./img/reminder.jpg","./img/alternative/1.png"]
+        },
+        {
+            "names": ["gp10"],
+            "messages": ["messages10"],
+            "images": ["./img/alternative/2.png"]
+        }
+    ],
+    "friends": [
+        {
+            "names": [],
+            "messages": [],
+            "images" :[]
+        }
+    ]
 }
 ```
 Run the script, and scan the QR code using WeChat on iOS or Android.  
