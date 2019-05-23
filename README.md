@@ -12,12 +12,12 @@ $ pip install wxpy
 $ pip install pillow
 ```
 Clone this repo
-```
+```shell
 $ git clone https://github.com/SG4YK/Water-reminder-for-wechat.git
 $ cd Water-reminder-for-wechat
 ```
 Edit `config.json`, make sure the file name and the group names are exact. Here's the example
-```
+```json
 {
     "groups": [
         {
@@ -41,11 +41,11 @@ Edit `config.json`, make sure the file name and the group names are exact. Here'
 }
 ```
 Run the script, and scan the QR code using WeChat on iOS or Android.  
-```
+```shell
 $ python reminder.py
 ```
 To run in the script in the background, you can use [screen](https://www.gnu.org/software/screen/)   
-```
+```shell
 $ screen -S reminder  
 $ python reminder.py
 ```
