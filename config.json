@@ -1,6 +1,21 @@
 {
-    "groups": ["your_group"],
-    "friends": [],
-    "pics": ["./img/reminder.jpg"],
-    "messages": []
+    "groups": [
+        {
+            "names": ["gp00","gp01"],
+            "messages": ["msg00"],
+            "images" :["./img/reminder.jpg","./img/alternative/1.png"]
+        },
+        {
+            "names": ["gp10"],
+            "messages": ["messages10"],
+            "images": ["./img/alternative/2.png"]
+        }
+    ],
+    "friends": [
+        {
+            "names": [],
+            "messages": [],
+            "images" :[]
+        }
+    ]
 }
