@@ -1,3 +1,4 @@
+# -*- coding: UTF-8 -*-
 from time import *
 from wxpy import *
 from json import *
@@ -19,7 +20,7 @@ def remind():
             groups[i] = ensure_one(bot.groups().search(groups[i]))
             for j in range(0,len(imgs)):
                 groups[i].send_image(imgs[j])
-
+        config_file.close()
 
 if __name__ == "__main__":  
     while(True):
