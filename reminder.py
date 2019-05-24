@@ -20,20 +20,21 @@ def remind():
             images=config['groups'][i]['images']
             current_groups=[]
             #search for groups
-            for j in range(0,len(config['groups'][i]['names'])):
-                current_groups.append(ensure_one(bot.groups().search(config['groups'][i]['names'][j])))
+            for j in range(0,len(names)):
+                current_groups.append(ensure_one(bot.groups().search(names[j])))
 #                current_groups.append(config['groups'][i]['names'][j])
             #send messages
             for j in range(0,len(current_groups)):
-                for k in range(0,len(config['groups'][i]['messages'])):
-#                    print(current_groups[j],' messages:',config['groups'][i]['messages'][k])
-                    current_groups[i].send(config['groups'][i]['messages'][k])
-                for l in range(0,len(config['groups'][i]['images'])):
-#                    print(current_groups[j],' images:',config['groups'][i]['images'][k])
-                    current_groups[i].send_image(config['groups'][i]['images'][k])
+                for k in range(0,len(messages)):
+#                    print(current_groups[j],' messages:',messages[k])
+                    current_groups[i].send(messages[k])
+                for l in range(0,len(images)):
+#                    print(current_groups[j],' images:',images[k])
+                    current_groups[i].send_image(images[k])
         config_file.close()
 
 if __name__ == "__main__":  
     while(True):
         checkTime()
         sleep(60)
+images
