@@ -37,4 +37,3 @@ if __name__ == "__main__":
     while(True):
         checkTime()
         sleep(60)
-images
