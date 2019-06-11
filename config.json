@@ -3,12 +3,20 @@
         {
             "names": ["gp00","gp01"],
             "messages": ["msg00"],
-            "images" :["./img/reminder.jpg","./img/alternative/1.png"]
+            "images": ["./img/reminder.jpg","./img/alternative/1.png"],
+            "period": {
+                "start": 0,
+                "end": 5
+            }
         },
         {
             "names": ["gp10"],
             "messages": ["messages10"],
-            "images": ["./img/alternative/2.png"]
+            "images": ["./img/alternative/2.png"],
+            "period": {
+                "start": 0,
+                "end": 5
+            }
         }
     ],
     "friends": [
